@@ -5,58 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка -->
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="nav">
         <!--Лого-->
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a href="./index.html" class="logo">
+          <span class="web">Web</span><span class="studio">Studio</span></a
+        >
+
+        <ul class="nav-menu list">
+          <li><a class="nav-link" href="">Studio</a></li>
+
+          <li>
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+
+      <address class="address">
+        <ul class="address-list list">
+          <li class="address-item">
+            <a class="address-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="address-item">
+            <a class="address-tel" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <!--Головна частина-->
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+
+        <button class="hero-button" type="button">Order Service</button>
       </section>
-      <section>
-        <h2>Effective Solutions</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
+      <section class="text">
+        <h2 hidden>Effective Solutions</h2>
+        <ul class="text-list list">
+          <li class="text-item">
+            <h3 class="text-title">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
+          <li class="text-item">
+            <h3 class="text-title">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
+          <li class="text-item">
+            <h3 class="text-title">Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
+          <li class="text-item">
+            <h3 class="text-title">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -64,53 +85,86 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
-            <img src="./images/img-1.jpg" alt="monitor display" width="360" />
+      <section class="picture">
+        <h2 class="picture-title">What are we doing</h2>
+        <ul class="list">
+          <li class="picture-item">
+            <img
+              src="./images/img-1.jpg"
+              alt="monitor display"
+              width="360"
+              height="300"
+            />
           </li>
-          <li>
-            <img src="./images/img-2.jpg" alt="visualization app" width="360" />
+          <li class="picture-item">
+            <img
+              src="./images/img-2.jpg"
+              alt="visualization app"
+              width="360"
+              height="300"
+            />
           </li>
-          <li>
+          <li class="picture-item">
             <img
               src="./images/img-3.jpg"
               alt="computer and phone"
               width="360"
+              height="300"
             />
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img src="./images/mark.jpg" alt="team foto" width="264" />
-            <h3>Mark Guerrero</h3>
+      <section class="people">
+        <h2 class="people-title">Our Team</h2>
+        <ul class="people-list list">
+          <li class="people-card">
+            <img
+              src="./images/mark.jpg"
+              alt="team foto"
+              width="264"
+              height="260"
+            />
+            <h3 class="people-name">Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
-            <img src="./images/tom.jpg" alt="team foto" width="264" />
-            <h3>Tom Ford</h3>
+          <li class="people-card">
+            <img
+              src="./images/tom.jpg"
+              alt="team foto"
+              width="264"
+              height="260"
+            />
+            <h3 class="people-name">Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
-            <img src="./images/camila.jpg" alt="team foto" width="264" />
-            <h3>Camila Garcia</h3>
+          <li class="people-card">
+            <img
+              src="./images/camila.jpg"
+              alt="team foto"
+              width="264"
+              height="260"
+            />
+            <h3 class="people-name">Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
-            <img src="./images/daniel.jpg" alt="team foto" width="264" />
-            <h3>Daniel Wilson</h3>
+          <li class="people-card">
+            <img
+              src="./images/daniel.jpg"
+              alt="team foto"
+              width="264"
+              height="260"
+            />
+            <h3 class="people-name">Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!--Підвал-->
-    <footer>
-      <a href="./index.html">WebStudio</a>
+    <footer class="footer">
+      <a class="logo" href="./index.html"
+        ><span class="web">Web</span><span class="studio">Studio</span></a
+      >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
