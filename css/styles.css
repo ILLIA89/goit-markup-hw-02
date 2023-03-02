@@ -1,7 +1,11 @@
 :root {
+  --background-body-color: #ffffff;
   --primary-text-color: #434455;
   --titel-text-color: #2e2f42;
   --button-text-color: #4d5ae5;
+  --button-hover-background: #404bbf;
+  --second-background-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
   --background-menu-color: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.2),
@@ -10,28 +14,31 @@
     #ffffff;
 }
 
+.list {
+  list-style: none;
+}
+.text {
+}
+
 /* Тіло сторінки */
 
 body {
   margin: 0;
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'roboto', 'sans-serif';
   font-size: 16px;
   line-height: 1.5;
-}
-
-.list {
-  list-style: none;
 }
 
 /* Логотип */
 
 .logo {
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .web {
-  font-family: 'Raleway';
+  font-family: 'raleway';
   color: var(--button-text-color);
   font-weight: 800;
   font-size: 18px;
@@ -42,7 +49,7 @@ body {
 }
 
 .studio {
-  font-family: 'Raleway';
+  font-family: 'raleway';
   color: var(--primary-text-color);
   font-weight: 800;
   font-size: 18px;
@@ -66,3 +73,142 @@ body {
 }
 
 /* Адрес */
+
+.address-mail {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-tel {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Головна частина */
+/* Герой */
+.hero {
+  background-color: var(--titel-text-color);
+}
+.hero-title {
+  color: var(--background-body-color);
+  font-style: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  font-family: 'roboto';
+  color: var(--background-body-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--button-text-color);
+}
+
+/* Рішення */
+
+.solutions-text {
+  letter-spacing: 0.02em;
+}
+
+.solutions-text-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--titel-text-color);
+}
+
+/* Приклади робіт */
+
+.example-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: var(--titel-text-color);
+}
+
+/* Команда */
+
+.team-text {
+  letter-spacing: 0.02em;
+}
+.team {
+  background: var(--second-background-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--titel-text-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--titel-text-color);
+}
+
+/* Підвал */
+
+.footer {
+  background: var(--titel-text-color);
+}
+
+.footer-logo {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-web {
+  font-family: 'raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--button-text-color);
+}
+
+.footer-studio {
+  font-family: 'raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--second-background-color);
+}
+
+.footer-text {
+  color: var(--footer-text-color);
+  letter-spacing: 0.02em;
+}
+
+/*-------------------- Портфоліо -------------------*/
+
+.samples-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--titel-text-color);
+}
+
+.samples-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
