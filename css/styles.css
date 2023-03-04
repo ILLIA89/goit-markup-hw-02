@@ -138,8 +138,10 @@ body {
 .example-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--titel-text-color);
 }
 
@@ -147,6 +149,7 @@ body {
 
 .team-text {
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .team {
   background: var(--second-background-color);
@@ -155,7 +158,9 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--titel-text-color);
 }
