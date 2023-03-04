@@ -33,28 +33,19 @@ body {
 .logo {
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.web {
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   color: var(--button-text-color);
   font-weight: 800;
-  font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.33;
   letter-spacing: 0.03em;
-  width: 44px;
-  height: 24px;
 }
 
 .studio {
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   color: var(--primary-text-color);
   font-weight: 800;
-  font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.33;
   letter-spacing: 0.03em;
-  width: 71px;
-  height: 24px;
 }
 
 /*---------------------- Навігація------------------ */
