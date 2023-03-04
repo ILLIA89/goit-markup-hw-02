@@ -23,7 +23,7 @@
 body {
   margin: 0;
   color: var(--primary-text-color);
-  font-family: 'roboto', 'sans-serif';
+  font-family: 'Roboto', 'sans-serif';
   font-size: 16px;
   line-height: 1.5;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 .web {
-  font-family: 'raleway';
+  font-family: 'Raleway';
   color: var(--button-text-color);
   font-weight: 800;
   font-size: 18px;
@@ -47,7 +47,7 @@ body {
 }
 
 .studio {
-  font-family: 'raleway';
+  font-family: 'Raleway';
   color: var(--primary-text-color);
   font-weight: 800;
   font-size: 18px;
@@ -198,7 +198,7 @@ body {
 }
 
 .footer-web {
-  font-family: 'raleway';
+  font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
@@ -207,7 +207,7 @@ body {
 }
 
 .footer-studio {
-  font-family: 'raleway';
+  font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
