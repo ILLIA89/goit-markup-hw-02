@@ -28,13 +28,17 @@ body {
 
 /*----Логотип---- */
 
+.link{
+text-decoration: none;
+}
+
 .logo {
-  text-decoration: none;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
-  color: var(--button-text-color);
+  color: var(--titel-text-color) ;
   font-weight: 800;
-  line-height: 1.33;
+  font-size: 18px
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
