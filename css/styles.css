@@ -17,8 +17,6 @@
 .list {
   list-style: none;
 }
-.text {
-}
 
 /* Тіло сторінки */
 
@@ -59,10 +57,15 @@ body {
   height: 24px;
 }
 
-/* Навігація */
+/*---------------------- Навігація------------------ */
 
 .nav-menu {
   background: var(--background-menu-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--button-hover-background);
 }
 
 .nav-link {
@@ -72,7 +75,17 @@ body {
   color: var(--titel-text-color);
 }
 
-/* Адрес */
+/*------------------------Адрес ------------------*/
+
+.address-list .address-mail:hover,
+.address-list .address-mail:focus {
+  color: var(--button-hover-background);
+}
+
+.address-list .address-tel:hover,
+.address-list .address-tel:focus {
+  color: var(--button-hover-background);
+}
 
 .address-mail {
   color: var(--primary-text-color);
@@ -103,13 +116,24 @@ body {
   letter-spacing: 0.02em;
 }
 
-.hero-button {
-  font-family: 'roboto';
+.hero-button:focus,
+.hero-button:hover {
   color: var(--background-body-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background: var(--button-hover-background);
+}
+
+.hero-button {
+  /* font-family: 'roboto'; */
+  color: var(--background-body-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   background-color: var(--button-text-color);
 }
 
@@ -197,6 +221,26 @@ body {
 }
 
 /*-------------------- Портфоліо -------------------*/
+
+.bar-btn {
+  color: var(--button-text-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--second-background-color);
+}
+
+.bar-btn:focus,
+.bar-btn:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--button-hover-background);
+  color: var(--background-body-color);
+}
 
 .samples-titel {
   font-weight: 500;
