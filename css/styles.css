@@ -28,26 +28,22 @@ body {
 
 /*----Логотип---- */
 
-.link{
-text-decoration: none;
+.link {
+  text-decoration: none;
 }
 
 .logo {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
-  color: var(--titel-text-color) ;
+  color: var(--button-text-color);
   font-weight: 800;
-  font-size: 18px
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
 .studio {
-  font-family: 'Raleway', sans-serif;
-  color: var(--primary-text-color);
-  font-weight: 800;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
+  color: var(--titel-text-color);
 }
 
 /*---------------------- Навігація------------------ */
