@@ -67,13 +67,8 @@ body {
 
 /*------------------------Адрес ------------------*/
 
-.address-list .address-mail:hover,
-.address-list .address-mail:focus {
-  color: var(--button-hover-background);
-}
-
-.address-list .address-tel:hover,
-.address-list .address-tel:focus {
+.address-list .address-item:hover,
+.address-list .address-item:focus {
   color: var(--button-hover-background);
 }
 
@@ -81,18 +76,13 @@ body {
   font-style: normal;
 }
 
-.address-mail {
+.address-item {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-tel {
-  color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
 /* Головна частина */
 /* Герой */
 .hero {
