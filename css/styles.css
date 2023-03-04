@@ -205,6 +205,7 @@ body {
 /*-------------------- Портфоліо -------------------*/
 
 .bar-btn {
+  font-family: 'Roboto', sans-serif;
   color: var(--button-text-color);
   cursor: pointer;
   font-weight: 500;
