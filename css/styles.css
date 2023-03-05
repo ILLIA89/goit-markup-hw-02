@@ -24,6 +24,8 @@ body {
   margin: 0;
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /*----Логотип---- */
@@ -47,10 +49,6 @@ body {
 }
 
 /*---------------------- Навігація------------------ */
-
-.nav-menu {
-  background: var(--background-menu-color);
-}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -78,19 +76,26 @@ body {
 
 .address-item {
   color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/* Головна частина */
+/* ------------------Головна частина--------------- */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--titel-text-color);
+}
 /* Герой */
 .hero {
   background-color: var(--titel-text-color);
 }
 .hero-title {
   color: var(--background-body-color);
-  font-style: 700;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -135,34 +140,13 @@ body {
 
 /* Приклади робіт */
 
-.example-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--titel-text-color);
-}
-
 /* Команда */
 
 .team-text {
   letter-spacing: 0.02em;
-  line-height: 1.5;
 }
 .team {
   background: var(--second-background-color);
-}
-
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-  color: var(--titel-text-color);
 }
 
 .team-name {
@@ -234,8 +218,6 @@ body {
 }
 
 .samples-text {
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
